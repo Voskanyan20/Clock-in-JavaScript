@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#room{
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/room.jpg);
+}
+.clock{
+    width: 180px;
+    height: 180px;
+    background-image: url(./image/clockbcg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid silver;
+    border-radius: 90px;
+    position: relative;
+    left: 42%;
+    top: 15px;
+    box-shadow: 0px 0px 12px 0px grey;
+}
+.dot{
+    background-color: black;
+    width: 7px;
+    height: 7px;
+    border-radius: 14px;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    z-index: 2;
+}
+#arrow_big{
+    height: 70px;
+    width: 3px;
+    background-color: black;
+    transform-origin: bottom right;
+    border-radius: 93%;
+    position: absolute;
+    left: 82px;
+    top: 17px;
+}
+#arrow_mini{
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    transform-origin: bottom right;
+    border-radius: 93%;
+    position: absolute;
+    left: 82px;
+    top: 34px;
+}
+#min__arrow{
+    height: 70px;
+    width: 2px;
+    background-color: red;
+    transform-origin: bottom right;
+    position: absolute;
+    left: 83px;
+    top: 17px;
+}
+#one{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 70%;
+    top: 6px;
+}
+#two{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    top: 18%;
+    left: 86%;
+}
+#tree{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    top: 43%;
+    left: 93%;
+}
+#four{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 86%;
+    top: 67%;
+}
+#five{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 69%;
+    top: 83%;
+}
+#six{
+    font-size: 15px;
+    font-family: cursive;
+    top: 88%;
+    left: 48%;
+    position: absolute;
+}
+#seven{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    top: 83%;
+    left: 24%;
+}
+#eight{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    top: 67%;
+    left: 9%;
+}
+#nine{
+    top: 44%;
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 3px;
+}
+#ten{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 9%;
+    top: 18%;
+}
+#eleven{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+}
+#twelve{
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute;
+    left: 44%;
+    top: -2px;
+}
+#tvtabl{
+    position: absolute;
+    width: 350px;
+    top: 86%;
+    left: 36%;
+}
+#tv{
+    position: absolute;
+    top: 66%;
+    left: 41%;
+}
+#screen{
+    width: 205px;
+    position: absolute;
+    top: 416px;
+    left: 557px;
+    height: 117px;
+    display:none;
+}
+#remote{
+    width: 50px;
+    position: absolute;
+    top: 548px;
+    left: 777px;
+    cursor: pointer;
+}
+#romote__hand{
+    position: absolute;
+    width: 250px;
+    top: 47%;
+    left: 63%;
+    display: none;
+}
+#power{
+    position: absolute;
+    background-color: inherit;
+    width: 16px;
+    height: 11px;
+    top: 306px;
+    left: 897px;
+    cursor: pointer;
+    display: none;
+}
+#power_off{
+    position: absolute;
+    background-color: inherit;
+    width: 16px;
+    height: 11px;
+    top: 306px;
+    left: 921px;
+    cursor: pointer;
+    display: none;
+}
